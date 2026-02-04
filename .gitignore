@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+spark_venv/
+kafka_venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark / Hadoop
+metastore_db/
+derby.log
+checkpoint/
+*.crc
+
+# Data files
+*.csv
+*.parquet
+*.snappy
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
